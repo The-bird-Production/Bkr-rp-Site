@@ -1,0 +1,48 @@
+//Colors 
+
+$primary : #7338c7 ; 
+$secondary : #5597ed ; 
+
+
+
+//Font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Pathway+Extreme:wght@300&display=swap');
+
+$font-family-sans-serif: 'Noto Sans', sans-serif;
+
+@font-face {
+    font-family: high-speed;
+    src: url(/asset/font/HIGHSPEED.TTF);
+}
+
+//Components
+$btn-border-radius : 1000px ; 
+$badge-border-radius: 1000px ;
+
+//Nav 
+$nav-link-color: white;
+$nav-link-hover-color: white; 
+$navbar-dark-color: white; 
+$navbar-dark-hover-color:  white;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "components/body";
+@import "components/rullers";
+@import "bootstrap/bootstrap";
+
